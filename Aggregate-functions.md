@@ -1,0 +1,1 @@
+Aggregate functions compute a single result from a set of input values.
