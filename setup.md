@@ -21,9 +21,6 @@ Log into the default PostgreSQL user (called "postgres") to create a database an
 ##CREATE USER <user_name> WITH PASSWORD '<password>';
 ##CREATE DATABASE <name_of_database> OWNER <user_name>;
 
-##\q
-exits
-
 ##exit
 ##sudo su - <user_name>
 Exits out of the default "postgres" user account and logs into the user you created.
@@ -33,15 +30,6 @@ Signs into the database you created
 
 ##show data_directory;
 To see where the data directory is, use this query.
-
-##\list or \l:
-list all databases
-
-##\dt:
-list all tables in the current database
-
-##\c or \connect database_name
-To switch databases
 
 ________________________________________________________
 HOW TO: CREATE A TABLE
