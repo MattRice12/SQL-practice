@@ -1,7 +1,7 @@
 
 ## Create table
 CREATE TABLE celebs (
-  id INTEGER,
+  id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER
   );
