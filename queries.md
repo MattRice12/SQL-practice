@@ -25,6 +25,9 @@ LIKE is a special operator used with the WHERE clause to search for a specific p
 # BETWEEN
 The BETWEEN operator is used to filter the result set within a certain range. The values can be numbers, text or dates.
 
+# IN
+The IN conditional operator is really a set membership test operator. That is, it is used to test whether or not a value (stated before the keyword IN) is "in" the list of values provided after the keyword IN.
+
 # AND OR
 AND and OR are special operators that you can use with WHERE to filter the query on two or more conditions.
 
