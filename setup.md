@@ -52,34 +52,34 @@ CREATE TABLE pg_equipment (
 ##PostgreSQL Data Types
 
 The data type can be any of the following:
-	boolean: Use "boolean" or "bool" to declare a true or false value.
+#boolean: Use "boolean" or "bool" to declare a true or false value.
 	character values
-	char: holds a single character
-	char (#): holds # number of characters. Spaces will be inserted to fill any extra room.
-	varchar (#): holds a maximum of # number of character. Can contain less.
-	integer values
-	smallint: whole number between -32768 and 32767.
-	int: whole number between -214783648 and 214783647.
-	serial: Auto-populated integer number.
+#char: holds a single character
+#char (#): holds # number of characters. Spaces will be inserted to fill any extra room.
+#varchar (#): holds a maximum of # number of character. Can contain less integer values
+#smallint: whole number between -32768 and 32767.
+
+#int: whole number between -214783648 and 214783647.
+#serial: Auto-populated integer number.
 	floating-point values
-	float (#): floating point number with at least # points of precision.
-	real: 8-byte floating point number
+#	float (#): floating point number with at least # points of precision.
+#	real: 8-byte floating point number
 	numeric (#,after_dec): real number with # number of digits, and after_dec digits after decimal
 	date and time values
-	date: stores a date value
-	time: stores a time value
-	timestamp: stores a date and time value
-	timestamptz: stores a timestamp that includes timezone data
-	interval: stores the difference between two timestamp values
+#	date: stores a date value
+#	time: stores a time value
+#	timestamp: stores a date and time value
+#	timestamptz: stores a timestamp that includes timezone data
+#	interval: stores the difference between two timestamp values
 	geometric data
-	point: stores a pair of coordinates that define a point
-	line: stores a set of points that map out a line
-	lseg: stores data that defines a line segment
-	box: stores data that defines a rectangle
-	polygon: stores data that defines any enclosed space
+#	point: stores a pair of coordinates that define a point
+#	line: stores a set of points that map out a line
+#	lseg: stores data that defines a line segment
+#	box: stores data that defines a rectangle
+#	polygon: stores data that defines any enclosed space
 	device specifications
-	inet: stores an IP address
-	macaddr: stores a device MAC address
+#	inet: stores an IP address
+#	macaddr: stores a device MAC address
 
 
 ##PostreSQL Column and Table Constraints

@@ -1,3 +1,6 @@
+##psql <name_of_db> [e.g., psql postgres]
+enters postgres
+
 ##\q
 exits
 

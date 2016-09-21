@@ -1,3 +1,4 @@
+https://www.postgresql.org/docs/9.1/static/sql-altertable.html
 
 ## Create table
 CREATE TABLE celebs (
@@ -5,6 +6,13 @@ CREATE TABLE celebs (
   name TEXT,
   age INTEGER
   );
+
+## Change Table Name
+  ALTER TABLE [ ONLY ] name [ * ]
+      RENAME [ COLUMN ] column TO new_column
+
+## Delete table
+DROP TABLE name;
 
 
 ## Rows
@@ -28,3 +36,11 @@ CREATE TABLE celebs (
   ## Add new column to table
   ALTER TABLE celebs
   ADD COLUMN twitter_handle TEXT;
+
+  ## Change Column Name
+    ALTER TABLE name
+      RENAME TO new_name
+
+  ## Drop Column
+    ALTER TABLE name
+      DROP column;
