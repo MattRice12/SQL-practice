@@ -1,5 +1,7 @@
 Aggregate functions compute a single result from a set of input values.
 
+SUM(), MIN(), MAX(), and AVG() only work on columns containing numbers
+
 # COUNT()
 COUNT()  takes the name of a column(s) as an argument and counts the number of rows where the value(s) is not NULL.
   To count every row (incase some columns are null) -- COUNT(\*)
