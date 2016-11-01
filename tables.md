@@ -3,8 +3,9 @@ https://www.postgresql.org/docs/9.1/static/sql-altertable.html
 ## Create table
 CREATE TABLE celebs (
   id INTEGER PRIMARY KEY,
-  name TEXT,
-  age INTEGER
+  name TEXT NOT NULL UNIQUE,
+  age INTEGER,
+  film_id int REFERENCES films(id)
   );
 
 ## Change Table Name
@@ -16,7 +17,6 @@ DROP TABLE name;
 
 
 ## Rows
-
   ## Add row to table
   INSERT INTO celebs (id, name, age)
     VALUES (1, 'Justin Bieber', 21);
