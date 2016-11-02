@@ -1,4 +1,4 @@
-# Basic
+# Column constraint syntax
   CREATE TABLE Actors (
     id int PRIMARY KEY,
     name varchar(50) NOT NULL UNIQUE,
@@ -26,4 +26,8 @@
       salary integer CHECK (salary > 500),
       bonus integer,
       country_id int REFERENCES Countries(id)
-      ); 
+      );
+
+# Join Tables
+  INSERT INTO Actors_Movies (actor_id, movie_id)
+    VALUES (2, 5);
